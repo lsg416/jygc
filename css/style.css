@@ -1,0 +1,128 @@
+
+    * {
+      box-sizing: border-box;
+      margin: 0px;
+     
+         /*层叠样表不能用style*/
+    }
+     
+    body {
+      font-family: Arial;
+     
+      
+      background: url('../photo/onePerson.jpg') ;
+      background-size: 100% 100%;
+      background-repeat: no-repeat; 
+      background-color: transparent;
+      
+    }
+    video{
+      width: 100%;
+    }
+     
+    /* 头部标题 */
+    
+    
+     
+    
+    .left{
+
+      background-color: transparent;
+      float: left;
+      width: 30%;
+     
+      height: 700px;
+      padding: 0px 30px;
+
+      
+    }  
+    .catalogue{
+      
+      background-color: tomato;
+      height: 700px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .right{
+      text-align: center;
+      float: left;
+      width: 70%;
+      height: 700px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      margin-right: 0px;
+      
+      
+
+      
+      
+
+        
+    }
+    ul.a{
+      list-style-image: url('../photo/images/user.png');
+    }
+    ul.b{
+      list-style-image:url('../photo/images/redpoint.png')
+    }
+    ul.c{
+      list-style-image: url('../photo/images/loveSuperman.png');
+    }
+    ul.e{
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+
+    }
+  
+   
+    
+   
+   
+     
+    /* 图像部分 */
+    .fakeimg {
+      background-color: rgb(170, 170, 170);
+      flex-direction: row;
+      justify-content: center;
+    
+    }
+     
+    /* 文章卡片效果 */
+    .card {
+      
+      padding: 20px;
+      margin-top:0px;
+      
+     
+    }
+   
+  
+    .text{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+    }
+    
+    .text.left1{/*注意子元素不能与上面的重名*/
+      background-color: transparent;
+      width: 70%;
+
+      
+    }
+    .text.right1{
+      background-color: white;
+      width: 30%;
+      overflow: hidden;
+      border-radius: 20px;
+      flex-direction: column;
+      justify-content: center;
+    }
+   
+   
+   
+    
